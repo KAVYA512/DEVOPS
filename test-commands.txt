@@ -1,0 +1,4 @@
+echo "hello world"
+uname -a
+uptime
+df -th
