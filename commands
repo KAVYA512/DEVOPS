@@ -1,0 +1,38 @@
+LOAD BALANCERS:
+
+
+EC2 LB POLICIES IN AWS:
+1.Round robbin policy
+
+we can configure the load balancers on priority based.
+
+Load balancers will manage the traffic and hit the backend ( ec2 instances).
+
+Route 53: DNS
+system status checks & instance status ckeck.
+
+through apk software is installed from client and it is been configure through 
+
+task : how to configure the DNS?
+
+record type A: IPv4
+record type AAAA: IPv6
+CNAME : routing traffic ALIAS name.
+MX - specifies mail serveres.
+TXT-used to verify email senders & for application-specific values.
+
+AWS there are 4 types of load balancers.
+1. CLASSIC LB  : this is the AWS first load balancer.
+                 It is the tcp load balancer.
+				 it is a layer 4 load balancer
+				 It breaks the SSL.
+				 It works on the single port and it is the single path.
+				 
+2. Application LB : Path baased Routing.
+                     Layer 7
+					 path is configured in the health check.
+3. Network LB  : 
+4. Gateway LB  : It is similar to network 
+Path baased routing doesn't work on Classic & network LB.
+
+
